@@ -1,4 +1,4 @@
-package kurs25subs;
+package Auto;
 
 import java.io.BufferedReader;
 import java.io.DataOutput;
