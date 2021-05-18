@@ -61,7 +61,7 @@ color: #FFFFFF;
 <h1>Результат сложения</h1>
 <h2>Ваши введеные данные:</h2>
 <p><strong>Результат:</strong> ${result}</p>
-<form action="${pageContext.request.contextPath}/Form.html">
+<form action="${pageContext.request.contextPath}/Form.jsp">
     <input type="submit" name="sign" value="Назад">
 <p>_</p>
     </form>
