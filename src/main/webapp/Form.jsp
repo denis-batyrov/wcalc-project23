@@ -184,7 +184,7 @@
                         <br><br>
 
                         <input type="submit" name="sign" value="Расчёт стоимости">
-                        <input type="submit" name="sign" value="Об авторах">
+                        <!--<input type="submit" name="sign" value="Об авторах">-->
                   </form>
                   <br>
                   <br>
