@@ -4,7 +4,7 @@ import java.util.List;
 
 public abstract class SuperCalculations {
 
-	/*
+
 	static public double getWindowFrameCost(double height, double width, FrameType frameType, FrameMaterial frameMaterial) {
 		double rubblesCoef = 0.001;
 		double frameTypeCoef = 0;
@@ -92,8 +92,8 @@ public abstract class SuperCalculations {
 		double frameColorCoef = frameColor == FrameColor.WHITE ? 1 : 1.05;
 		return ((frameCost + leafCost + glassCost + accCost) * frameColorCoef) * promo; 
 	}
-	*/
-		static public double getResultSum(double height, double width) {
+
+		/*static public double getResultSum(double height, double width) {
 		return (height * width);
-		}
+		}*/
 }
