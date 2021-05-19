@@ -101,13 +101,13 @@
                   </form>
                   <form action="${pageContext.request.contextPath}/JavaCalc" method="post">
                         <label for="laba_info">Варианты створок:</label>
-                        <!--<select name="frameType" id="frameType" value="${frameType}">
+                        <select name="frameType" id="frameType" value="${frameType}">
                               <option value="s1">Одностворчатое</option>
                               <option value="s2" selected>Двухстворчатое</option>
                               <option value="s3">Трёхстворчатое</option>
                               <option value="s3" label="Двухстворчатое с фрамугой">Поворотно-откидная</option>
                               <option value="s4">Трёхстворчатое с фрамугой</option>
-                        </select>-->
+                        </select>
                         <br><br>
 
                         <label for="height">Высота:</label>
@@ -120,73 +120,73 @@
                         
                         <label for="color">Цвет створок:</label>
 
-                              <!--<select name="frameColor" id="frameColor" value="${frameColor}">
+                              <select name="frameColor" id="frameColor" value="${frameColor}">
                                     <option value="s1">Бесцветный</option>
                                     <option value="s2" selected>Цветной</option>
-                              </select>-->
+                              </select>
 
                         <br>
 
                         <label for="material">Материал створок:</label>
-                        <!--<select name="frameMaterial" id="frameMaterial" value="${frameMaterial}">
+                        <select name="frameMaterial" id="frameMaterial" value="${frameMaterial}">
                               <option value="s1">ПВХ</option>
                               <option value="s2" selected>Дерево</option>
                               <option value="s3">Металл</option>
-                        </select>-->
+                        </select>
 
                         <br><br>
                         <label for="dgw">Стеклопакет:</label>
-                        <!--<select name="glassUnit" id="glassUnit" value="${glassUnit}">
+                        <select name="glassUnit" id="glassUnit" value="${glassUnit}">
                               <option value="s1">Двухкамерный</option>
                               <option value="s2" selected>Трёхкамерный</option>
                               <option value="s3">Поворотная</option>
                               <option value="s3" label="не знаю что написать">Поворотно-откидная</option>
-                        </select>-->
+                        </select>
                         <br><br>
 
                         <label for="accessories">Аксессуары:</label>
-                        <!--<select name="accessory" id="accessory" value="${accessory}">
+                        <select name="accessory" id="accessory" value="${accessory}">
                               <option value="s1">Подоконник</option>
                               <option value="s2" selected>Карниз</option>
                               <option value="s3">Подоконник и карниз</option>
-                        </select>-->
+                        </select>
 
                         <br><br>
                         <label for="mechanism">Механизм открывания:<br><br></label>
                         <label for="type1">Тип открытия 1 створки:</label>
-                        <!--<select name="type1" id="type1" value="${type1}">
+                        <select name="type1" id="type1" value="${type1}">
                               <option value="s1">Глухая</option>
                               <option value="s2" selected>Откидная</option>
                               <option value="s3">Поворотная</option>
                               <option value="s3" label="не знаю что написать">Поворотно-откидная</option>
-                        </select>-->
+                        </select>
 
                         <br><br>
                         <label for="type2">Тип открытия 2 створки:</label>
-                        <!--<select name="type2" id="type2" value="${type2}">
+                        <select name="type2" id="type2" value="${type2}">
                               <option value="s1">Глухая</option>
                               <option value="s2" selected>Откидная</option>
                               <option value="s3">Поворотная</option>
                               <option value="s3" label="не знаю что написать">Поворотно-откидная</option>
-                        </select>-->
+                        </select>
 
                         <br><br>
                         <label for="type3">Тип открытия 3 створки:</label>
-                        <!--<select name="type3" id="type3" value="${type3}">
+                        <select name="type3" id="type3" value="${type3}">
                               <option value="s1">Глухая</option>
                               <option value="s2" selected>Откидная</option>
                               <option value="s3">Поворотная</option>
                               <option value="s3" label="не знаю что написать">Поворотно-откидная</option>
-                        </select>-->
+                        </select>
                         <br><br>
 
                         <label for="promocode">Промокод:</label>
-                        <!--<input type="text" name="promocode" id="promocode" value="${promocode}">-->
+                        <input type="text" name="promocode" id="promocode" value="${promocode}">
 
                         <br><br>
 
                         <input type="submit" name="sign" value="Расчёт стоимости">
-                        <!--<input type="submit" name="sign" value="Об авторах">-->
+                        <input type="submit" name="sign" value="Об авторах">
                   </form>
                   <br>
                   <br>
