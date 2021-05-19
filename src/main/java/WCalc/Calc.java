@@ -3,14 +3,14 @@ import java.util.ArrayList;
 import java.util.List;
 import java.io.IOException;
 
-//import Math.Accessory;
+import Math.Accessory;
 import Math.Calculations;
 import Math.SuperCalculations;
-/*import Math.FrameColor;
+import Math.FrameColor;
 import Math.FrameMaterial;
 import Math.FrameType;
 import Math.GlassUnit;
-import Math.OpeningMechanism;*/
+import Math.OpeningMechanism;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -30,17 +30,17 @@ public class Calc extends HttpServlet {
 	}
 	
 	private static class RequestCalc {
-		//private final FrameType frameType;
+		private final FrameType frameType;
 		private final float height;
 		private final float width;
-		//private final FrameColor frameColor;
-		//private final FrameMaterial frameMaterial;
-		//private final GlassUnit glassUnit; // Steklopaket
-		//private final Accessory accessory;
-		//private final OpeningMechanism type1;
-		//private final OpeningMechanism type2;
-		//private final OpeningMechanism type3;
-		//private final double promocode;
+		private final FrameColor frameColor;
+		private final FrameMaterial frameMaterial;
+		private final GlassUnit glassUnit; // Steklopaket
+		private final Accessory accessory;
+		private final OpeningMechanism type1;
+		private final OpeningMechanism type2;
+		private final OpeningMechanism type3;
+		private final double promocode;
 		
 		private float result;
 						
@@ -55,24 +55,24 @@ public class Calc extends HttpServlet {
 							String type2,
 							String type3,
 							String promocode) {
-			//this.frameType = FrameType.fromString(frameType);
+			this.frameType = FrameType.fromString(frameType);
 			this.height = height;
 			this.width = width;
-			//this.frameColor = FrameColor.fromString(frameColor);
-			//this.frameMaterial = FrameMaterial.fromString(frameMaterial);
-			//this.glassUnit = GlassUnit.fromString(glassUnit);
-			//this.accessory = Accessory.fromString(accessory);
-			//this.type1 = OpeningMechanism.fromString(type1);
-			//this.type2 = OpeningMechanism.fromString(type2);
-			//this.type3 = OpeningMechanism.fromString(type3);
+			this.frameColor = FrameColor.fromString(frameColor);
+			this.frameMaterial = FrameMaterial.fromString(frameMaterial);
+			this.glassUnit = GlassUnit.fromString(glassUnit);
+			this.accessory = Accessory.fromString(accessory);
+			this.type1 = OpeningMechanism.fromString(type1);
+			this.type2 = OpeningMechanism.fromString(type2);
+			this.type3 = OpeningMechanism.fromString(type3);
 			
-			/*if (promocode == "drama_5") {
+			*if (promocode == "drama_5") {
 				this.promocode = 0.95;
 			} else if (promocode == "drama_10") {
 				this.promocode = 0.9;
 			} else {
 				this.promocode = 1;
-			}*/
+			}
 		}
 		
 		public static RequestCalc fromRequestParameters(HttpServletRequest request) {
@@ -97,7 +97,7 @@ public class Calc extends HttpServlet {
 			request.setAttribute("result", result);
 		}
 		
-		/*private float getFullCost() {
+		private float getFullCost() {
 			List<OpeningMechanism> mechanisms = new ArrayList<OpeningMechanism>();
 			if (frameType == FrameType.SINGLELEAF) {
 				mechanisms.add(type1);
@@ -116,6 +116,6 @@ public class Calc extends HttpServlet {
 			double accCost = Calculations.getAccessoriesCost(width, accessory);
 			double fullCost = Calculations.getResultSum(frameCost, leafescost, glassCost, accCost, frameColor, promocode);
 		return (float) fullCost;
-		}*/
+		}
 	}
 }
