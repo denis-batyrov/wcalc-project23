@@ -92,7 +92,7 @@
                   </form>
                   <form action="${pageContext.request.contextPath}/JavaCalc" method="post">
                         <label for="frameType">Варианты створок:</label>
-                        <select name="frameType" id="frameType" value="${frameType}">
+                        <select type="text" name="frameType" id="frameType" value="${frameType}">
                               <option value="Одностворчатое">Одностворчатое</option>
                               <option value="Двухстворчатое" selected>Двухстворчатое</option>
                               <option value="Трёхстворчатое">Трёхстворчатое</option>
@@ -118,7 +118,7 @@
                         <br>
 
                         <label for="frameMaterial">Материал створок:</label>
-                        <select name="frameMaterial" id="frameMaterial" value="${frameMaterial}">
+                        <select type="text" name="frameMaterial" id="frameMaterial" value="${frameMaterial}">
                               <option value="ПВХ">ПВХ</option>
                               <option value="Дерево" selected>Дерево</option>
                               <option value="Металл">Металл</option>
@@ -126,7 +126,7 @@
 
                         <br><br>
                         <label for="dgw">Стеклопакет:</label>
-                        <select name="glassUnit" id="glassUnit" value="${glassUnit}">
+                        <select type="text" name="glassUnit" id="glassUnit" value="${glassUnit}">
                               <option value="Двухкамерный">Двухкамерный</option>
                               <option value="Трёхкамерный" selected>Трёхкамерный</option>
                               <option value="Поворотная">Поворотная</option>
@@ -135,7 +135,7 @@
                         <br><br>
 
                         <label for="accessory">Аксессуары:</label>
-                        <select name="accessory" id="accessory" value="${accessory}">
+                        <select type="text" name="accessory" id="accessory" value="${accessory}">
                               <option value="Подоконник">Подоконник</option>
                               <option value="Карниз" selected>Карниз</option>
                               <option value="Подоконник и карниз">Подоконник и карниз</option>
@@ -144,7 +144,7 @@
                         <br><br>
                         <label for="type1">Механизм открывания:<br><br></label>
                         <label for="type1">Тип открытия 1 створки:</label>
-                        <select name="type1" id="type1" value="${type1}">
+                        <select type="text" name="type1" id="type1" value="${type1}">
                               <option value="Глухая">Глухая</option>
                               <option value="Откидная" selected>Откидная</option>
                               <option value="Поворотная">Поворотная</option>
@@ -153,7 +153,7 @@
 
                         <br><br>
                         <label for="type2">Тип открытия 2 створки:</label>
-                        <select name="type2" id="type2" value="${type2}">
+                        <select type="text" name="type2" id="type2" value="${type2}">
                             <option value="Глухая">Глухая</option>
                             <option value="Откидная" selected>Откидная</option>
                             <option value="Поворотная">Поворотная</option>
@@ -162,7 +162,7 @@
 
                         <br><br>
                         <label for="type3">Тип открытия 3 створки:</label>
-                        <select name="type3" id="type3" value="${type3}">
+                        <select type="text" name="type3" id="type3" value="${type3}">
                             <option value="Глухая">Глухая</option>
                             <option value="Откидная" selected>Откидная</option>
                             <option value="Поворотная">Поворотная</option>
