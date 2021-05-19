@@ -93,7 +93,7 @@ public class Calc extends HttpServlet {
 		public void setAsRequestAttributesAndCalculate(HttpServletRequest request) {
 
 			
-			result = height*width;//getFullCost();
+			result = getFullCost();
 			request.setAttribute("result", result);
 		}
 		
