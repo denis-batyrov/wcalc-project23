@@ -1,9 +1,9 @@
 package Math;
 
 public enum Accessory {
-	CORNISE("Корниз"), 
-	SILL("Поддоконник"),
-	BOTH("Корниз и Поддоконник");
+	CORNISE("Карниз"), 
+	SILL("Подоконник"),
+	BOTH("Подоконник и карниз");
 
 	private String text;
 
