@@ -94,5 +94,6 @@ public abstract class SuperCalculations {
 	}
 	*/
 		static public double getResultSum(double height, double width) {
-		return (height * width)
+		return (height * width);
+		}
 }
