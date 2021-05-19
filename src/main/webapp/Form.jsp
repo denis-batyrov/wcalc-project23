@@ -115,7 +115,7 @@
                         <label for="height">мм<br><br></label>
 
                         <label for="width">Ширина:</label>
-                        <input type="width" name="third" id="width" value="${width}">
+                        <input type="text" name="third" id="width" value="${width}">
                         <label for="width">мм<br><br></label>
                         
                         <label for="color">Цвет створок:</label>
