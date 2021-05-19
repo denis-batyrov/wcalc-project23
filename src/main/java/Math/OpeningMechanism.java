@@ -1,10 +1,10 @@
 package Math;
 
 public enum OpeningMechanism {
-	DULL("Глухое"), 
-	FOLDING("Поворотное"), 
-	SWIVIEL("Откидное"),
-	SWINGOUT("Поворотно-откидное");
+	DULL("Глухая"), 
+	FOLDING("Откидная"), 
+	SWIVIEL("Поворотная"),
+	SWINGOUT("Поворотно-откидная");
 
 	private String text;
 
