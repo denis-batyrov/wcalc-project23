@@ -1,9 +1,9 @@
 package Math;
 
 public enum FrameMaterial {
-	PVC("ΟΒΥ"), 
-	WOOD("Δεπεβξ"), 
-	METAL("Μεςΰλλ");
+	PVC("ΠΠ’Π¥"), 
+	WOOD("Π”ΠµΡ€ΠµΠ²ΠΎ"), 
+	METAL("ΠΠµΡ‚Π°Π»");
 
 	private String text;
 
