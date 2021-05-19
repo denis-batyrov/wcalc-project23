@@ -1,8 +1,8 @@
 package Math;
 
 public enum GlassUnit {
-	DOUBLEGLAZED("Двухкамерное"),
-	THREECHAMBER("Трехкамерное");
+	DOUBLEGLAZED("Двухкамерный"),
+	THREECHAMBER("Трёхкамерный");
 
 	private String text;
 
