@@ -119,12 +119,12 @@
                         <label for="width">мм<br><br></label>
                         
                         <label for="color">Цвет створок:</label>
-                        <form>
+
                               <!--<select name="frameColor" id="frameColor" value="${frameColor}">
                                     <option value="s1">Бесцветный</option>
                                     <option value="s2" selected>Цветной</option>
                               </select>-->
-                        </form>
+
                         <br>
 
                         <label for="material">Материал створок:</label>
