@@ -1,8 +1,8 @@
 package Math;
 
 public enum FrameColor {
-	WHITE("Бесцветный"), 
-	COLOR("Цветной");
+	WHITE("Р‘РµР»С‹Р№"), 
+	COLOR("Р¦РІРµС‚РЅРѕР№");
 
 	private String text;
 
