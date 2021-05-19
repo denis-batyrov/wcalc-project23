@@ -66,7 +66,7 @@ public class Calc extends HttpServlet {
 			this.type2 = OpeningMechanism.fromString(type2);
 			this.type3 = OpeningMechanism.fromString(type3);
 			
-			*if (promocode == "drama_5") {
+			if (promocode == "drama_5") {
 				this.promocode = 0.95;
 			} else if (promocode == "drama_10") {
 				this.promocode = 0.9;
