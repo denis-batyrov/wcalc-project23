@@ -3,9 +3,9 @@ package Math;
 public enum FrameType {
 	SINGLELEAF("Одностворчатое"),
 	BIVALVE("Двухстворчатое"),
-	TRICUSPID("Трехстворчатое"),
-	BIVALVETRANSOM("Двухстворчатое с фромугой"),
-	TRICUSPIDTRANSOM("Трехстворчатое с фромугой");
+	TRICUSPID("Трёхстворчатое"),
+	BIVALVETRANSOM("Двухстворчатое с фрамугой"),
+	TRICUSPIDTRANSOM("Трёхстворчатое с фрамугой");
 
     private String text;
 
