@@ -4,7 +4,9 @@
 <html>
  <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>Результат расчёта объёма прямоугольного параллелепипеда</title>
+  <title>Калькулятор стоимости производства оконных конструкций.
+            Производственное помещение.
+     </title>
  
    
   <style type="text/css">
@@ -58,23 +60,17 @@ color: #FFFFFF;
  </head>
  <body>
   <div id="container">
-   <div id="header">Результат расчёта объёма прямоугольного параллелепипеда</div>
+   <div id="header">Калькулятор стоимости производства оконных конструкций.
+            Производственное помещение.</div>
    <div id="content">
-<h1>Результат сложения</h1>
+<h1>Результат вычислений</h1>
 <h2>Ваши введеные данные:</h2>
-<p><strong>Результат:</strong> ${result}</p>
+<p><strong>Итоговая стоимость:</strong> ${result}</p>
 <form action="${pageContext.request.contextPath}/Form.jsp">
     <input type="submit" name="sign" value="Назад">
 <p>_</p>
     </form>
-   <div id="sidebar">
-    <p>Справочная информация</p>
-    <p>Единицы измерения объёма</p>
-    <p>1 куб. см = 1000 куб. мм</p>
-    <p>1 куб. дм = 1000 куб. см</p>
-    <p>1 куб. м = 1000 куб. дм</p>
-    <p>1 куб. км = 1000000000 куб. м</p>
-   </div>
+
    <div id="footer">&copy; Выполнили студенты группы ПИ-223:</div>
    <div id="footer">Батыров Д., Мингареев Р., Насыров А. и Погудина М.</div>
   </div>
