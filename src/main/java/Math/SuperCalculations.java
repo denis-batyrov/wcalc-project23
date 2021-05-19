@@ -3,7 +3,8 @@ package Math;
 import java.util.List;
 
 public abstract class SuperCalculations {
-	// ������ ��������� �������
+
+	/*
 	static public double getWindowFrameCost(double height, double width, FrameType frameType, FrameMaterial frameMaterial) {
 		double rubblesCoef = 0.001;
 		double frameTypeCoef = 0;
@@ -41,7 +42,7 @@ public abstract class SuperCalculations {
 		return (height * width) * rubblesCoef * frameMaterialCoef * frameTypeCoef;
 	}
 
-	// ������ ��������� ���������� ����������
+
 	static public double getLeafCost(List<OpeningMechanism> mechanisms) {
 		double cost = 0;
 		for (OpeningMechanism mechanism : mechanisms) {
@@ -62,14 +63,14 @@ public abstract class SuperCalculations {
 		return cost;
 	}
 	
-	// ������ ��������� ������������
+
 	static public double getGlassUnitCost(double height, double width, GlassUnit unit) {
 		double coef = 0.001;
 		double glassUnitCoef = unit == GlassUnit.DOUBLEGLAZED ? 1 : 1.2;
 		return height * width * coef * glassUnitCoef;
 	}
 	
-	// ������ ��������� �����������
+
 	static public double getAccessoriesCost(double width, Accessory acc) {
 		double result = 0;
 		switch (acc) {
@@ -86,9 +87,12 @@ public abstract class SuperCalculations {
 		return result;
 	}
 
-	// ������ �������� ���������
+
 	static public double getResultSum(double frameCost, double leafCost, double glassCost, double accCost, FrameColor frameColor, double promo) {
 		double frameColorCoef = frameColor == FrameColor.WHITE ? 1 : 1.05;
 		return ((frameCost + leafCost + glassCost + accCost) * frameColorCoef) * promo; 
 	}
+	*/
+		static public double getResultSum(double height, double width) {
+		return (height * width)
 }
