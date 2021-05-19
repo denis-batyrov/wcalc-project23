@@ -3,7 +3,7 @@ package Math;
 public enum FrameMaterial {
 	PVC("ПВХ"), 
 	WOOD("Дерево"), 
-	METAL("Метал");
+	METAL("Металл");
 
 	private String text;
 
