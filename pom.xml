@@ -52,22 +52,10 @@
     <artifactId>maven-war-plugin</artifactId>
     <version>3.3.0</version>
     <configuration>
-    
+        <goal>war:inplace</goal>
+        
         <outputDirectory>artifacts</outputDirectory>
     </configuration>
-    <executions>
-                        <execution>
-                            <id>default-war</id>
-                            <phase>none</phase>
-                        </execution>
-                        <execution>
-                            <id>war-inplace</id>
-                            <phase>package</phase>
-                            <goals>
-                                <goal>inplace</goal>
-                            </goals>
-                        </execution>
-                    </executions>
 </plugin>
                 
             </plugins>
