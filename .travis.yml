@@ -1,0 +1,10 @@
+deploy:
+	provide: heroku
+	api_key: 
+		secure: SFMyNTY.g2gDbQAAAA8xNzguMjE0LjI1NS4yMDRuBgBKabW9eQFiAAFRgA.yMMSf9yPmDsAngiT4Dn8RQMuULYcBIBj5BR4oUaPxl0
+app: 
+	main: testwcalc23
+language: java
+skript:
+- mvn clean package
+
