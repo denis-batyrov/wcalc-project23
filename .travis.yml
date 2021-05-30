@@ -7,4 +7,3 @@ app:
 language: java
 skript:
 - mvn clean package
-
